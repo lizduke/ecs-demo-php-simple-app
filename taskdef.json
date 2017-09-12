@@ -1,0 +1,50 @@
+{
+    "networkMode": "bridge",
+    "taskRoleArn": null,
+    "containerDefinitions": [
+        {
+            "volumesFrom": [],
+            "memory": 300,
+            "extraHosts": [],
+            "dnsServers": [],
+            "disableNetworking": null,
+            "dnsSearchDomains": [],
+            "portMappings": [
+                {
+                    "hostPort": 80,
+                    "containerPort": 80,
+                    "protocol": "tcp"
+                }
+            ],
+            "hostname": null,
+            "essential": true,
+            "entryPoint": [],
+            "mountPoints": [],
+            "name": "php-simple-app",
+            "ulimits": [],
+            "dockerSecurityOptions": [],
+            "environment": [],
+            "links": [],
+            "workingDirectory": null,
+            "readonlyRootFilesystem": null,
+            "image": "404063407815.dkr.ecr.eu-west-1.amazonaws.com/test-repository:latest",
+            "command": [],
+            "user": null,
+            "dockerLabels": {},
+            "logConfiguration": null,
+            "cpu": 10,
+            "privileged": null,
+            "memoryReservation": null
+        }
+    ],
+    "volumes": [
+        {
+            "host": {
+                "sourcePath": null
+            },
+            "name": "my-vol"
+        }
+    ],
+    "family": "LizStandard2-PhpTaskDefinition-1EQMDXBXUOOB6",
+    "placementConstraints": []
+}
