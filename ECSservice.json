@@ -42,7 +42,7 @@
             },
             "DesiredCount": 1,
             "DeploymentConfiguration": {
-            "MaximumPercent": 100,
+            "MaximumPercent": 200,
             "MinimumHealthyPercent": 0
           },
         "LoadBalancers": [
@@ -140,6 +140,12 @@
                 ]
             }
           ],
+	"placementStrategy": [
+ 		   {
+       			 "field": "instanceId",
+       			 "type": "spread"
+   		 }
+		],
           "Volumes": [
             {
                 "Name": "my-vol"
