@@ -43,7 +43,7 @@
             "DesiredCount": 1,
             "DeploymentConfiguration": {
             "MaximumPercent": 200,
-            "MinimumHealthyPercent": 0
+            "MinimumHealthyPercent": 100
           },
         "LoadBalancers": [
             {
@@ -54,7 +54,7 @@
                       "Fn::Sub": "${OwningStackName}-PublicELB" }
                 }
             }
-        ],
+        ]
       }
     },
       "ServiceRole": {
