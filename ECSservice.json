@@ -93,8 +93,7 @@
                                       "elasticloadbalancing:DeregisterTargets",
                                       "elasticloadbalancing:DescribeTargetGroups",
                                       "elasticloadbalancing:DescribeTargetHealth",
-                                      "elasticloadbalancing:RegisterTargets",
-				      "application-autoscaling:*"
+                                      "elasticloadbalancing:RegisterTargets"
                                   ],
                                   "Resource": "*"
                               }
