@@ -140,12 +140,6 @@
                 ]
             }
           ],
-	"placementStrategy": [
- 		   {
-       			 "field": "instanceId",
-       			 "type": "spread"
-   		 }
-		],
           "Volumes": [
             {
                 "Name": "my-vol"
